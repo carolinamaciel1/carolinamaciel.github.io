@@ -1,0 +1,85 @@
+.banner{
+   /* background-color: #dca2a1;*/
+   /*background-image: linear-gradient(to right bottom,#FFE4E1,white,#FFE4E1);*/
+    background-color: white;
+    height: 100%;
+}
+
+/*.banner-bottom{
+    background-image: url(flow2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 1000px;
+    
+   
+}*/
+
+
+#title-banner{
+    font-family: 'Quattrocento', serif;
+    font-size: 100px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 350px;
+    color: rosybrown;
+    text-shadow: 1px 1px 0.5px #808080;
+    
+
+}
+
+h2{
+    position: absolute;
+    font-family: 'Quattrocento', serif;
+    margin-top: -330px;
+    margin-left: 555px;
+        border-bottom: 5px solid rosybrown;
+
+}
+
+h3{
+    position: absolute;
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    margin-top: -280px;
+    margin-left: 600px;
+
+}
+
+nav{
+    margin-top: -90px;
+    margin-left: 520px;
+    width: 100%;
+    
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: #8B8682;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rosybrown;
+}
+
+
+
+
+main{
+    position: relative;
+    background-color:white;
+    height: 100%;
+
+    
+    
+}
