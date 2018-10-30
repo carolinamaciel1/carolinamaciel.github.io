@@ -1,0 +1,174 @@
+/*initial -> titles*/
+.hgroup{
+    padding-top: 300px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-family: 'Quattrocento', serif;
+}
+
+.hgroup h1{
+    padding-left: 39px;
+    color: #cc6666;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 
+}
+
+.hgroup h2{
+    text-align: center;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-bottom: 1px solid;
+}
+
+.hgroup h3{
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*final -> titles*/
+
+
+/* initial -> navegation */
+
+li{
+    display: inline-block;
+}
+/*final -> navigation*/
+
+a{
+    font-size: 17px;
+    color: #8B8682;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rosybrown;
+}
+
+/*header*/
+
+
+/* initial -> mainsection */
+main section{
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: #000 solid 1px;
+}
+
+.content{
+    margin-top:100px;
+}
+
+
+#sec-pg-1{
+    height: 100vh;
+}
+
+#sec-pg-2{
+    padding-top: 135px;
+    background-color: #cccccc;
+    width: 100%;
+    height: 100vh;
+}
+
+#sec-pg-2 h1{
+    text-shadow: 1px 1px 0.5px #808080;
+    color:silver;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: 'Quattrocento', serif;
+}
+
+#sec-pg-3{
+    margin-top: 150px;
+}
+
+/* intro about-me */
+.intro{
+    margin-top: 135px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+/* final -> mainsection */
+
+
+
+
+/*  initial -> footer */
+
+footer p{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*  final -> footer */
+
+
+/* initial -> thumbnail */
+.box{
+    opacity: 0.5;
+    transition:all 0.3s ease;
+
+}
+
+.box p{
+    font-size: 25px;
+    border-bottom: 0.5px solid;
+    color: black;
+}
+
+.box:hover{
+    opacity:15;
+}
+
+.box .thumbnail{
+    padding: 0 15px;
+}
+
+.img-thumbnail{
+        border-style:none;
+        margin-bottom: 20px;
+        width: 330px;
+}
+/* final -> thumbnail */
+
+
+/* initial -> media screen 494px */
+@media screen and (max-width: 494px)  {
+    .hgroup h1{
+        text-align: left;
+        color: #cc6666;
+        font-size: 46px;
+    }
+
+    .hgroup h2{
+        margin-left: 50px;
+        font-size: 20px;
+        
+}
+    .hgroup h3{
+    margin-left: 40px;
+    font-size: 15px;
+
+}
+    
+}
+
+/* final -> media screen 494px */
