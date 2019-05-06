@@ -8,10 +8,10 @@
 }
 
 .hgroup h1{
+    color:#825454;;
     letter-spacing: 10px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    color: #cc6666;
     font-size: 34px;
     margin-left: auto;
     margin-right: auto;
@@ -26,6 +26,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    color: #ef6565;
 
 }
 
@@ -44,11 +45,11 @@ a{
     font-size: 15px;
     letter-spacing: 6px;
     font-weight: 500;
-    color: black;
+    color:#ef6565;
 }
 
 a:hover{
-    color:#cc6666;
+    color: #825454;
     text-decoration: none;
     transition: 0.5s;    
 }
@@ -75,6 +76,7 @@ main section{
 
 #sec-pg-1{
     height: 100vh;
+    background-image: linear-gradient( #ffeded , white)
 }
 
 #sec-pg-2{
@@ -82,7 +84,7 @@ main section{
 }
 
 #sec-pg-2 h1{
-    color:#cc6666;
+    color:#ef6565;
     font-size: 50px;
     font-family: 'Quattrocento', serif;
 }
@@ -98,7 +100,7 @@ main section{
     font-size: 15px;
     letter-spacing: 10px;
     font-weight: bold;
-    color:#cc6666;
+    color:#ef6565;
 }
 
 #infos ul li{
