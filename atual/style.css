@@ -1,0 +1,159 @@
+/*initial -> titles*/
+.hgroup{
+    padding-top: 300px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.hgroup h1{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #cc6666;
+    font-size: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hgroup h2{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+
+}
+
+
+/*final -> titles*/
+
+
+/* initial -> navegation */
+
+li{
+    display: inline-block;
+}
+/*final -> navigation*/
+
+a{
+    font-size: 15px;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: black;
+}
+
+a:hover{
+    color:#cc6666;
+    text-decoration: none;
+    transition: 0.5s;    
+}
+
+a img{
+    padding-left:25px;
+}
+
+/*header*/
+
+
+/* initial -> mainsection */
+main section{
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: #000 solid 1px;
+}
+
+.content{
+    margin-top:100px;
+}
+
+
+#sec-pg-1{
+    height: 100vh;
+}
+
+#sec-pg-2{
+    width: 100%;
+}
+
+#sec-pg-2 h1{
+    color:#cc6666;
+    font-size: 50px;
+    font-family: 'Quattrocento', serif;
+}
+
+#infos{
+    padding: 150px 50px 50px 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#infos h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color:#cc6666;
+}
+
+#infos ul li{
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#infos p{
+    padding: 10px;
+}
+
+
+/* intro about-me */
+
+
+
+/* final -> mainsection */
+
+
+
+
+/*  initial -> footer */
+
+footer p{
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+/*  final -> footer */
+
+
+
+/* initial -> media screen 494px */
+@media screen and (max-width: 494px)  {
+    .hgroup h1{
+        text-align: left;
+        color: #cc6666;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+
+    .hgroup h2{
+        text-align: left;
+        margin-left: 15px;
+        font-size: 10px;        
+}
+
+
+}
+    
+}
+
+/* final -> media screen 494px */
